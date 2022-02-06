@@ -1,1 +1,1 @@
-# The coding projects I completed while learning python.
+# The coding programs I wrote while learning python.
