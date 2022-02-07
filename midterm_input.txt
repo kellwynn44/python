@@ -1,0 +1,11 @@
+Team League PostSeasonBattingAverage
+Boston Red Sox AL .325
+Chicago White Sox AL .312
+Houston Astros AL .265
+Tampa Bay Rays AL .212
+Los Angeles Dodgers NL .228
+San Francisco Giants NL .213
+Atlanta Braves NL .200
+New York Yankees AL .188
+Milwaukee Brewers NL .174
+St. Louis Cardinals NL .156

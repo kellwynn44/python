@@ -1,0 +1,4 @@
+2021 Postseason Batting Averages
+AL Batting Average   NL Batting Average    Overall Batting Average
+###                  ###                   ###
+0.26                 0.194                 0.227
