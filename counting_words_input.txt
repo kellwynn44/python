@@ -1,0 +1,433 @@
+alright.
+So we're going to do two things today we're going to talk we're going to do a variable one more about me get you ready for the final exam in our first example of me yesterday, we have a driver a driver.
+function from that driver okay.
+So we'll talk a little bit more about the final when we get there.
+And just a few minutes but let's do this variable scope cody first I think you guys are getting used to.
+play let's see pull this up.
+Where we add.
+Okay, so in this little, this is a short little module it probably out of scope.
+So so me.
+Where is it valid or where can you use it, so we have to define a variable or a little adl we're.
+Working that lead.
+um, so we will talk about the difference between global and local scope local means it can only be used inside a particular method or inside of our function or insider.
+For example, you say for an equal something is only valid inside that forward.
+and global means you can use it anywhere in the Program.
+So there are some times that you want to global variables and sometimes we would want to use local you can think of if you're using a piece of software like Ted talk or something.
+sample of a global variable that will walk you everywhere.
+math problem or math.
+or industry.
+Okay, so interest rates, specifically like you had a thought for in somewhere, and you can integrate in a bunch of different map that occasion and make sense the fine.
+Daily interest rate or current interest rate or whatever it is, at the very top of one of the files and that would be everywhere everywhere, there was a variable interest rate for this probably all over the House.
+It would take whatever value is defined as a global variable not have to want it, you don't want to go into 20 different files 50 different file with hundred and five.
+And modified interest rate and all of those want to be a modified in one spot and have it perpetuates throughout the tough things that you want came over and over again, and that are going to apply to everything.
+was never something that you want to be a local variable and say, instead of pulling for inside a function or method.
+Generic thing but that's true easily give like if we have very low welcome like breaking news say in progress, you can put it all back and sacrifice and.
+What it represents X I.
+found the variable.
+And they're only using local stuff and it's a pretty good chance of reaching with writing code.
+In a file and she used it there's probably an eye on her code somewhere and if painting roads and folks who might have an eye and those are totally different eyes, but you don't want whatever Rachel does the her eyes will affect cadence not right, so you want those to be local scope.
+hey all right.
+So.
+If we define a function.
+For example, um.
+let's do a better example than that um let's define a function, make it a little bigger.
+called greeting.
+and
+We are going to pass it a variable called name.
+And we are going to say print.
+I and then, whatever the name is yeah and then let's put an.
+exclamation point at the end.
+And i'm concatenate rather than putting a comment here because I don't want to space.
+So if I wrote.
+If I called greeting.
+I passed in a variable Bob.
+be fine right.
+Again, that was the problem, thank you.
+That was my.
+Point Unquote.
+Oh gosh I try to help me.
+Okay, there we go exclamation point I tried that high bar so name is a variable and the variable name is only valid so local that function, so if I.
+Right alright another function down here if I define.
+Reading or.
+The opposite of agreeing with you say, by the club.
+or well.
+And I pass it name what's.
+Your.
+user avatar
+Nina Peterson
+name.
+And then i'm going to concatenate that and i'm going to make easy on myself time quotes around it and if I.
+I probably want to put her on by yeah Thank you Rachel I do, and if I actually want to call farewell.
+and pass it on.
+andhra.
+And I could actually put this greeting the call to the greeting down here as well, so they don't have to be one after the other, just to show you that it will keep track, so the computer knew that I wanted Bob to record that name.
+fabric represent me.
+And it does not.
+only focus on.
+Another way you can tell that they're only valid within the scope that they're defined is I could add another print statement here branch.
+aim, for example, but do you think it's going to do.
+Give me an error, it does not know that name his name is not defined.
+And so we decided to name twice, but we only define the local of the options that they were.
+General had no idea what made it in London, he was reading more fair well so yeah those are local stops.
+Right.
+Just run that to get rid of that episode was me there we go okay um.
+So.
+If we have function called F underscore one that sets a variable my bar to hello, we can print my bar if we have a function called function underscore to, and we have a my bar, which is one zero, we can also print that and we can call function one and function to.
+declare and call function three so you're going to take function three, which is just literally.
+says function three my bar and then it goes ahead and press it so we try that it says it was successfully executed oh I didn't actually call it, I should probably call it function three and it takes no parameters so just open and close parentheses, and it prints for me.
+fill in the blanks below.
+What declared inside a function have what kind of scope.
+variables inside outside local.
+variables declared inside a function have.
+Local scope.
+And this means that you can only reference the variable from inside the function trying to reference variable from outside the function will cause an air.
+Yes, getting says.
+I hit that's what.
+Do you do.
+Oh no I thought I hit it twice, but I didn't okay so global scope, what will stop it when we deploy a variable outside of a function and.
+So, for example, um yeah.
+yeah i'm going to go back with the example that we had where we can declare name, we could say that that is Bob, for example, and then I can define greeting.
+At took in name.
+and France France.
+Hello Hello.
+hey and then I could also define another function called farewell.
+And what also taking name and we could print.
+I.
+Think if I declare name one time out here, I could either.
+Call greeting.
+And just present name I could call farewell and pass it name, and I could just actually Prince name and we tried to do that and I gave us an air before, but I define name globally out here so everywhere within the program should be able to see it and can see it.
+looks what happened says Hello bar by bar and then it just printed box so anywhere in this program see my variable that I defined global call it a.
+And I can use your either inside the function, or I can use it outside the function.
+Okay, so what happens, it says, if we modify name inside one of our functions So what if I say inside greeting i'm going to set name equal to Fred, what do you think will happen now.
+I called greeting with the name Fred and then I call for a while, with the name and then I print name, what will I do.
+So greeting use the name Fred because I wrote over name, but I did it locally and farewell is the waiting for the global one was involved in Brisbane global global one.
+yeah.
+um.
+What if you wanted it actually if I wanted this function to modify leave and I wanted, whatever it changed it to to actually be the new name globally.
+yeah I would have to set it to replace it, you know how I would do that.
+Rather than just printing I can still current if I want you have to return the value so if I return name it's going to then return that value and store it globally as name, so if I then go ahead and run that.
+sent me the Fred principle own name and return name looks.
+Okay, why did this not do anything so i'm halfway there, so I returns name what should I not do.
+I have to.
+install it right, I have to say name equals and then whatever I return, so I have to return it and me what his name is now stored as whatever i've changed it to in this case for it, so now.
+It says hello, Dr buy bread bread all that emotion modified variable into they return it and you have to say.
+Outside the function.
+What if I had called farewell first if I switch the order of these.
+books.
+On name and then I call greeting and then I print name.
+feel welcome to go up because this one's going to execute first to the program as it's reading is going to start applying 110.
+seven and eight.
+Yes, so it's going to be Bob Fred Fred.
+yeah okay.
+So what happens, what happens if you modify reading inside the function oh yeah we just did that and.
+So this year, your book says.
+However, the equity the program did not change the original value.
+by default, you can refer a global variable something that you cannot modify.
+modify all right um.
+So for mobile and global variable inside a function, so if you want to not have to do what we just did, and we want to be able to modify global variable inside the function like info i'm going to modify name equals.
+Bobby.
+If I set this to global.
+And then.
+Come back here for a second.
+If I say global that means anything I do in any function will modify that variable let's.
+Oh sorry I put it in the wrong spot.
+it's not like that.
+two lines and why the yelling at me.
+Global.
+So we're.
+Not like the past you.
+should be able to pass it.
+No.
+Oh, then I have to not have to either.
+yeah.
+So.
+This is the new way to do like reading.
+A book outside world global inside my variable and set.
+The new way like if you didn't see what will.
+happen when the parameter hear me, but you don't have a parameter you say, I want to refer to wobble rating and review Somalia and because you don't have level is simply that it is a local variable boggling to me.
+Please a global rain able body, none of that.
+I don't have to talk about, and then it hadn't been for me and modified it.
+So there's two different ways to do it, so another example.
+Let.
+me see if I can do this online.
+What.
+Was I called it first yeah so you can't do that I needed equals and you can't do this, which is where it's me you actually have to say, global name and then on a new line, I have to say name equals Bobby I think i'm just old school, but I, like the old way of doing it better.
+Global global Baba very long and that the variable that fit in and modify the global yeah.
+player global very one either outside or inside.
+alright.
+On what is the clean keyword global do without the global keyword all variables will be local variables, the global keyword allows for a global variable to be modified inside a function.
+That one's then Darren says the global keyword allows for a global variable to be seen inside of function.
+Now you can see it you just can't modify it so global keyword is required for all variable declarations and that's definitely not true, so it means so that you can modify it with inside the method.
+No.
+Just a second one.
+Global versus local scope.
+Alright, so they say let's have a variable called my variable and said it equal to global scope.
+And then declare variable inside the function and set it equal to local scope if we print my variable inside the function, it will print local so.
+yeah this is uh let's go ahead and do it name equals Bob.
+function.
+And some function says i'm going to create another variable called name, and I want this one to be damn and i'm going to print.
+name.
+So if I call some function.
+What is it going to do.
+it's going to print Sam is the local variable and notice kayden is right, and if I pray out here name is going to print Sam first and then.
+wobble versus local wanted that needs to actually change that global variable what would we do.
+But the key word.
+Global in front of it, but then it for some reason doesn't like that, so I have to say, global name name equal Sam and then I can go ahead and it will print because it actually modified the global variable.
+I have to declare it and then define it so it's technically a declaration declaring it and then defining it.
+yeah.
+Okay well.
+So I still have to have name up here right I declared name up here, but if I want to modify inside this function that global name is a global name yeah.
+yeah okay.
+So when you have a local and global variables, with the same name and there is no global keyword the what stopped variable takes precedence.
+So when you have a local and global variable with the same name and there is no global keyword.
+The.
+Medical with low I think don't don't enter it yet and it's local when you're inside a function, when you have a local and global variable with the same name and the global keyword is use the global scope takes preference.
+i'm going to check it yeah that's right.
+So look, if you do not use the keyword global and local one practice, you have your global the global focus for us.
+Alright formative assessment rearrange the code blocks below so that the program has a global variable called my bar the function add five should add five to my bar.
+Okay, so we need a global variable.
+called my bar.
+So what are we going to do.
+My bar equals five.
+And then we need to define add five.
+And an indent, we need to do what.
+My bar plus five.
+and make sure that's indented and we actually have to call it right.
+um.
+let's see it right when you simple.
+yep.
+Alright last one rearrange the code blocks below to create a program with the global variable my bar defining call the function change bar, it should modify the value of my bar no not all closed box will be used Okay, so we have to define my variable my bar So how do we do that.
+Before global is going to be inside right inside the function before that we just define my Var equals zero.
+And then we actually have to define our function called change Var.
+And then, what you said there and what she is global, my bar with to say we wanted to modify the global make sure that invented inside of our function, yes.
+There are.
+Oh yeah it's not a phone call was not a function, so this.
+Is not the predecessors, without a function.
+Okay, so, then, what do we want to do we want to add one to it, or something.
+yeah.
+We want to add one to it, so that also should be invented.
+Which is the same as my bar equals my bar plus one, and then we want to.
+What.
+Call it outside the function.
+So didn't that change bar, it should look like that declaring my Var defining change bar clearing it as global increasing the value of my bar and then calling changed our.
+Alright, it looks like at the end of our.
+Video project so we're asking them to have you guys do today is i'm in class active learning.
+Specifically, I want you to.
+Why to do not think of something fun right.
+Like a great um.
+Something simple so let's go ahead and open i'm an open.
+Python with you.
+I want.
+You to create a program so let's make a new file.
+I want you to create a new program the program is going to.
+ask for the name of the file.
+you're going to open that file.
+out the number of words in that file and write the number in your file containing X number of words.
+Right, so I want you to use the name so we're going to go ahead and kind of detail how this is going to look so we're going to have made we're going to define when we make it a little bigger I can't make a little bigger.
+We need to find me.
+And I remember I can't type.
+We actually have to call me.
+i'm inside main This is where we do things like opening file and printing most of the time, a lot of done a name, with the right file that offers on me.
+So we are going to do some stuff again.
+i'm actually writing about opening a file reading and writing for file, so all of our final reading and writing maybe doesn't make we're going to ask the properties or enter the name of the file.
+Right So how do we do that.
+User input equals what.
+input and then we have to give them a prompt right enter the name of a file something like that right.
+yeah.
+Okay.
+If you're really paranoid, we can run this and see if it works right which I always like to run things because i'm guessing paranoid and i'm going to call it word counter whatever you want to call it.
+And it says enter the name of a file i'm just gonna say.
+dot txt but it's not going to do anything, right now, because I never told it to do anything but I do at least prompt me for the name of the file, yes, and it messed up yet.
+Okay, so now we actually have to open a file.
+How do we open a file for reading.
+I just read it, that you see.
+yeah.
+Right.
+So now I didn't give you the name of the file name of the file could be different, every time so katie said to just put user input, which is a variable right and that variable flame that's why, and then we need to say we're opening it for reading.
+yeah.
+Alright So how do we then read in the contents of the file.
+In file dot read line, so I want to save it as something.
+Should we have what.
+So we line so different between read line and read lines, remember, we find we use it for a while and iterate through the fly but blind really that whole.
+That whole time john.
+doesn't matter we're not doing anything wrong timing all the words right for this.
+letter.
+hey and then just see that we're not crazy so far i'm going to print Doc.
+yeah and see what that is now we actually don't have a file yet so i'm going to make a new file.
+types, I have no idea.
+I can't.
+I can't.
+I can't spell.
+either.
+Here we go I can't spell okay i'm because it thinks i'm typing in Python.
+But i'm not typing a Python if as soon as I save it as not a Python file, but a text files on the SAVE that as.
+My file dot txt.
+And i'm also going to save it again.
+actually just minute i'm going to add another line to it with more staff mistake just add another line here and save it as a different file name.
+My.
+Over file oh whoops I say that one is the wi fi as a dot txt file there we go.
+So I sleep two files with texting them I don't really care what you have in your file I should be able to run this with any file, as long as it's in the same folder make sure they're in the same folder so i'm going to go ahead and run this.
+and saying enter the name of the file my file dot txt, I think, was the first one, and it goes ahead and print out some stuff.
+Did.
+Not file.
+Whatever you want just make sure it's a dot txt file.
+So when you know file sorry that's just make sure it's a dot txt and it's also in the same folder as your Python file.
+yeah.
+and
+user avatar
+Nina Peterson
+I say that, wherever you paid your Python file, no.
+problem.
+No.
+problem Hello everyone.
+And then you're going to prompt me for the name of the file.
+Alright, so i'm going to try it with the my other file name, because I can see two different files so i'm going to run at this time with my other file dot txt and Sure enough, it gives me different.
+Other file.
+Okay wow.
+wow whatever the name of your family and not people to vote.
+But.
+Well, whatever you type has to match the name of the file you say yes, I do.
+night.
+Make sure you get your file extension if you say, this is not that are dot txt whatever you save it, as you have to put that in the name of the file.
+This is going to be similar to the final exam so asked me as we're going if you don't get this.
+you're gonna have to read in the name of a file file, with some data in it.
+I now want you so we've read all the lines in we don't have I want you to make a list now let's make a list with each word because we're supposed to be counting the words and, if you look at this right here, it does give us a list but.
+Why.
+Right.
+Third, one file and I want to count the number of words.
+Okay.
+So, how would I break it apart, so that it's word by word by word.
+kayden said I don't like this caden said, I want to read each line at a time and say for each in there right kayden.
+You can.
+I can say what.
+Okay, my list is going to equal what Doc dots click.
+There, and says, and then I want to print instead of Doc I want to print my less safe we get it word by word by itself.
+let's say.
+Aaron says, I can just split it where to go Let me close it so you can see it it's too far down.
+Oh over here for me the name of file my other file dot txt.
+list has no object split so dear the way darren's thinking of what the split is what we did when we read it in line by line, do you guys want to do it that way, with the spec.
+So if we did a rewind there and.
+This will give us now.
+And then I could say I could say for each.
+And I could say.
+wow Doc.
+is not equal to the empty string, this is what we're used to doing right, and then we would say what.
+Who would read in whoo we're going to try Doc dot split here right because we're just going to read in a single line and split it, and then we are going to do what reading the next one, how do we read in the next one.
+Doc equals in file dot read line, yes, and then we would go ahead and.
+We have to do anything to my list.
+We have to depend anything here.
+We are going to count towards the first, we just need to get the words all separated in a less so step one is to separate each word in a less and then yes you're right.
+yeah so there's a split what you did a Doc that split let's go ahead and see what this does let's just run this and see where we're at we print out my last okay.
+What.
+Doc is what Kim said to call in filebeat rate, what did I do I close the wrong one.
+Where did I put it.
+Open recent.
+Here we go here is our file we go ahead and run it for us close the wrong one accidentally what is the name of the file my other file dot txt.
+And it read the first line for me and it's looked at word by word what word I thought the first line yes.
+Actually, but if you think about it for a second is this first line here is my This is my document online is that.
+Why.
+it's the last line because what did I do, I wrote over my list, each time the first time.
+Yes, what do I actually want to do, I don't want it right over it little I want to do.
+A pen Rachel says so, I want to declare my list.
+and said it equal to the empty less, and then I don't want you said it equal, I want to say my list, but a pen.
+Remember we're splitting.
+Yes.
+So I don't want to write it, and each time so i'm going to put my.
+file dot txt.
+And EU kinda sorta a lot have it all they're.
+kind of more do I have.
+What.
+Each line has its own list without what I want not quite.
+Old am I going to do.
+Alright, say, for each and so let's just Okay, before I tell you how to do this i'm going to just print Doc right here, let me print Doc.
+Before we do that look to see what that is we're saying well Doc is not equal to the empty string what is Doc.
+So I already have doctors kind of what I want right, but I want to go word by word through that so, how would I go word by word through Doc.
+For each in Doc.
+For each in dog want to do.
+Something like that.
+Maybe.
+I got each character.
+I didn't do what Rachel I didn't do a split.
+So what can I do.
+You want to split each each each character.
+So Rachel says to adopt that split.
+yeah.
+Rachel says do a doctor split.
+If I I can't spell split Probably not.
+um let me kill that oh yeah I need to see me good idea.
+into the name of a file.
+file dot txt.
+Right.
+Right, what did I.
+Do one.
+Red dots again after we split it.
+Oh, we stayed in a pre printed it what.
+I carry I was going to print it for you, but carrying products, she says i'm not setting it's a little I need to say I need to say Doc equals.us what.
+And then.
+Oh yeah.
+Okay well i'm gonna I was gonna run this but what's the problem before I do I want to split it before or after I iterate through each one.
+or I iterate through each one, I want to split it.
+I want to say for each end so let's see what we got going on here.
+And to the name of the file.
+All.
+We now have words in a list.
+Just what we want right we don't have any special characters or anything just all the words that we would like, so we now have what we call my list.
+And my list now has everything I want, so instead of creating my list here I want you to call a function we're going to define a function.
+Fine.
+Words and i'm going to make you do this if you do without this number still have to do this and i'm going to pass it a list.
+And i'm blessed.
+And I want you to count the number of words and alyssa.
+Okay, so down here we're going to call counters we're going to call it count.
+words.
+And I want count words to count the number of words and return it, so I want to say.
+One way of like number of words.
+equals, and I want to call count words and what do I want to pass count words.
+list.
+Okay, so what what does count words need to do now.
+It needs to count each word, how is it going to do that, I have a list.
+Number words is going to equal what.
+Oh so Rachel wants to do a for each in right somebody said that earlier or each in some less.
+I want to maybe make a counter on I make number of words i'm going to start it out at zero and say for each in some list number of words equals what.
+Number words what's one thing account all of them.
+And then I have to actually return number of words.
+you're on my list.
+I want.
+i'm pretty straightforward right your turn number of words.
+So then, you see if this is working i'm going to print in maine i'm going to print number of words.
+Go ahead and run this.
+was one of my files.
+My file.
+txt and it gave me 12.
+actually going to open my file and see if that is right.
+know if it's if it actually has 12 words in it 1-234-567-8910 1112 yeah I think it's counting right.
+uh huh.
+Come on.
+Very.
+Getting numbers of words printing yes.
+So the last part is instead of printing the number of words, I actually want you to write number of words to a file called output dot txt so, how would we do that.
+Instead of dot print Arizona print it's going to be a.
+dot right right we actually have to have the name of a file to write it to though So when I made my input file i'm also going to make an output or an output file.
+And i'm going to open.
+i'm going to call it out, but.
+txt and we're going to open up for writing and then we would say what.
+Right and then we have to do what with our profile.
+let's see if that actually runs academy titles enter the name of the file.
+file dot txt and oh yeah right what's the problem i'm trying to write, something that is not a string so number of words has to be a string So what do I do cast it as a string str number words.
+Thank you see out wrong language.
+into the name of a file what's.
+My file dot txt and it shouldn't return anything to me, and if I go ahead and look now do I have an output file.
+or output output.
+My other file, they say, to call it out, but not to.
+My day.
+don't see output do.
+What.
+me go ahead and look this way.
+that's my Python file, I think I saved them and documents.
+And it has 12 at a.
+Time so that's what I want you guys to do today, I will put that as an active learning.
+And I want you to read in the name of a file camp number of words in it and output, the number of words to a file called the output dot txt.
+Just the numbers fine you can put a sentence, if you want.
+Yes.
+yep we're not printing it's literally just writing into the file.
+output that txt.
+Yes.

@@ -1,0 +1,4 @@
+The average pain for males in the post-operative suction group is:     0.396
+The average pain for males in the control group is:     1.562
+The average pain for females in the post-operative suction group is:     0.44
+The average pain for females in the control group is:     1.682
