@@ -1,3 +1,0 @@
-Average Cumulative GPA for all students that have completed 50 or more credits:     2.91
-
-Total number of students with 50 or more credits:  5386
